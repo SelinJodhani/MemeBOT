@@ -1,0 +1,29 @@
+{
+  "name": "memebot",
+  "version": "1.0.0",
+  "description": "Meme BOT for telegram.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "start": "node -r dotenv/config src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SelinJodhani/MemeBOT.git"
+  },
+  "author": "Selin Jodhani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SelinJodhani/MemeBOT/issues"
+  },
+  "homepage": "https://github.com/SelinJodhani/MemeBOT#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.1",
+    "telegraf": "^4.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
